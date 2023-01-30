@@ -1,0 +1,15 @@
+
+.wrapper{
+    margin: 0 3% 0 3%;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #141414;
+    color: #c0c0c0;
+}
+
+.heading{
+    font-size: 2.2vw;
+    color: #c0c0c0;
+    text-align: center;
+}
