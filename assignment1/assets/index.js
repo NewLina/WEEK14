@@ -1,6 +1,14 @@
 const filmmakerNames=document.querySelectorAll('.name');
 const filmListContainer=document.querySelector('.film-list__container');
-const main=document.querySelector('.main');
+
+const filmmakerName1=document.querySelector('.name--1');
+const filmmakerName2=document.querySelector('.name--2');
+const filmmakerName3=document.querySelector('.name--3');
+const filmmakerName4=document.querySelector('.name--4');
+const filmmakerName5=document.querySelector('.name--5');
+const filmmakerName6=document.querySelector('.name--6');
+const filmmakerName7=document.querySelector('.name--7');
+const filmmakerName8=document.querySelector('.name--8');
 
 
 
@@ -48,17 +56,6 @@ const producers=[
     top_rated_film: 'Далласский клуб покупателей'
     },
 ];
-
-const filmmakerName1=document.querySelector('.name--1');
-const filmmakerName2=document.querySelector('.name--2');
-const filmmakerName3=document.querySelector('.name--3');
-const filmmakerName4=document.querySelector('.name--4');
-const filmmakerName5=document.querySelector('.name--5');
-const filmmakerName6=document.querySelector('.name--6');
-const filmmakerName7=document.querySelector('.name--7');
-const filmmakerName8=document.querySelector('.name--8');
-
-
 
 
 producers.forEach(function (item) {
