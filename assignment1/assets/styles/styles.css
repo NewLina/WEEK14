@@ -53,3 +53,13 @@
     text-decoration: dashed;
     color: azure;
 }
+
+.film-list__heding{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 1.9vw;
+}
+.film-list__container{
+    font-size: 1.5vw;
+    padding-bottom: 5%;
+}
