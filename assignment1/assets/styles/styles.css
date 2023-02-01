@@ -18,12 +18,12 @@
 .filmmaker{
     border-top: 1px dashed #c0c0c0;
     border-bottom: 1px dashed #c0c0c0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 5% 1fr 10%;
     padding-top: 1%; 
     padding-bottom: 2%;
     font-size: 1.5vw;
+    text-align: start;
 }
 
 .position{
@@ -33,10 +33,12 @@
     margin: 0;
 }
 .filmmaker__info{
-    padding-right: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .filmmaker__number{
     padding-left: 2%;
+    width: 2vw;
 }
 .filmography{
     padding-right: 1%;
